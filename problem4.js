@@ -11,7 +11,10 @@
   const carName = document.getElementById("cars").value;
   const par2 = document.getElementById("p2")
   par2.innerHTML = "You selected: " + carName;
-  for (let i = 0; i < numOfCars.length; i++) {                                   //write a "for" loop to display the items inside the list;
-        console.log(numOfCars.options[i].text);
+
+  const carsArray = ["Volvo","Saab","Mercedes","Audi"];
+  const carsLength = carsArray.length;
+  for (let i = 0; i < carsLength; i++) {                                   //write a "for" loop to display the items inside the list;
+      console.log(carsArray[i]);  
     }
 }
