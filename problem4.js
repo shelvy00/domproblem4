@@ -11,10 +11,18 @@
   const carName = document.getElementById("cars").value;
   const par2 = document.getElementById("p2")
   par2.innerHTML = "You selected: " + carName;
-
-  const carsArray = ["Volvo","Saab","Mercedes","Audi"];
-  const carsLength = carsArray.length;
-  for (let i = 0; i < carsLength; i++) {                                   //write a "for" loop to display the items inside the list;
-      console.log(carsArray[i]);  
-    }
 }
+
+function countCars(dropDown) {
+  let carOptions = dropDown.options
+  
+  for (let i = 0; i < carOptions.length; i++) {
+    console.log(carOptions[i].value);
+  }
+  
+}
+
+var x = document.getElementById("cars");
+
+
+
