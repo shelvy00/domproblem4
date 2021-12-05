@@ -13,16 +13,14 @@
   par2.innerHTML = "You selected: " + carName;
 }
 
-function countCars(dropDown) {
-  let carOptions = dropDown.options
+function countCars() {
+  let carOptions = document.getElementById("cars").options
   
   for (let i = 0; i < carOptions.length; i++) {
     console.log(carOptions[i].value);
   }
   
 }
-
-var x = document.getElementById("cars");
 
 
 
