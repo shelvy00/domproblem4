@@ -19,8 +19,5 @@ function countCars() {
   for (let i = 0; i < carOptions.length; i++) {
     console.log(carOptions[i].value);
   }
-  
 }
-
-
 
