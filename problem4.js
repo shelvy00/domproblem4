@@ -14,10 +14,8 @@
 }
 
 function countCars() {
-  let carOptions = document.getElementById("cars").options
-  
+  let carOptions = document.getElementById("cars").options;
   for (let i = 0; i < carOptions.length; i++) {
     console.log(carOptions[i].value);
   }
-}
-
+};
